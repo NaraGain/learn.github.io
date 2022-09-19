@@ -26,7 +26,11 @@ h5{
     text-align: center;
     padding: 12px 16px;
     text-decoration: none;
+<<<<<<< HEAD
     font-size: 14px;
+=======
+    font-size: 12px;
+>>>>>>> 1960f056945c1805ee953cdbc3269976831dd1c2
     
   }
 
@@ -96,7 +100,7 @@ section{
 }
 
 #More_For_You_List p{
-    font-size:12px;
+    font-size:14px;
     font-weight: bold;
     color: rgb(56, 55, 55);
 
