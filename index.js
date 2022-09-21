@@ -6,3 +6,12 @@ function myFunction() {
       x.className = "topnav";
     }
   }
+
+  window.onscroll = ()=>{
+    if(window.innerHeight + window.scrollY >= document.body.offsetWidth){
+     console.log(document.body.offsetHeight)
+     document.getElementById('#intro').style.color = 'red'
+    }else{
+   
+    }
+  }
