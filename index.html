@@ -18,6 +18,7 @@
 
   <!-- Latest compiled JavaScript -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -103,8 +104,38 @@
 </div>
 
 
-  <div>
-      <div class="container-fluid bg-white p-5">
+  
+
+
+     <div class="container-fluid p-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-5 p-4">
+            <section id="intro">
+            <h3><q>
+             <b>Data Structure?
+             </b>
+             </q></br></h3>
+             A data structure is a named location that can be used to store and organize data. And,
+              an algorithm is a collection of steps to solve a particular problem. Learning data structures and algorithms allow us to write efficient and optimized computer programs.
+            </section>
+            <button id ="learn_moreBtn"">Learn More</button>
+               
+          </div>
+          <div class="col-sm-5 m-4">
+         <div class="embed-responsive embed-responsive-16by9">
+          <iframe width="560" height="315" style=" margin-right: 10px; border-radius: 2px;"
+          src="https://www.youtube.com/embed/2T-A_GFuoTo" title="YouTube video player"
+           frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+           gyroscope; picture-in-picture" allowfullscreen></iframe>
+         </div>
+        
+          </div>
+        </div>
+      </div>
+    </div> 
+
+      <div class="container-fluid bg-white">
         <div class="container bg-white ">
          
           <div class="row">
@@ -114,7 +145,7 @@
                 src="https://img.freepik.com/free-vector/developer-activity-concept-illustration_114360-1643.jpg?w=2000"
                 />  
             </div>
-            <div class="col-sm-6 p-4 mt-2">
+            <div class="col-sm-6 mt-5">
               <section id="intro">
                 <h4>Front-End-Developer</h4>
                 Front-end web development is the development of the graphical user interface of a website,
@@ -127,10 +158,10 @@
           </div>
         </div>
         </div>
-        <div class="container-fluid bg-light p-5">
+        <div class="container-fluid bg-light">
           <div class="container ">
             <div class="row">
-              <div class="col-sm-6 p-4 mt-2">
+              <div class="col-sm-6  mt-5">
                 <section id="intro">
                   <h4>Back-End-Developer</h4>
                   Front-end web development is the development of the graphical user interface of a website,
@@ -154,36 +185,35 @@
 
 <!-- sdk and api -->
 
-        <div class="container-fluid bg-white ">
-          <div class="container p-5">
+        <div class="container-fluid bg-white text-start">
+          <div class="container p-4">
+            
             <div class="row">
               <div class="col-lg-6">
                 <div style="flex-direction: column;display: flex;justify-content: center;align-items: center;">
-                  <img id="Partner_logo" src="https://thumbs.dreamstime.com/b/sdk-icon-vector-software-development-kit-214968665.jpg" />
+                  <img id="Partner_logo" src="https://th.bing.com/th/id/R.d62e9882824f5e435563c27125601b2d?rik=s37Bintl7Sp%2bMw&pid=ImgRaw&r=0" />
                 </div>
-                <div class="p-4">
-                  <section id="intro">
-                    <h3>
-                     <b>What is SDK?
-                     </b>
-                     </q></br></h3>
+                
+                  <section class="p-2" id="intro">
+                    <h4>
+                  Software development Kit (SDK)
+                  <hr>
+                     </h4>
                      A software development kit is a collection of software development tools in one installable package. 
                      They facilitate the creation of applications by having a compiler, debugger and sometimes a software framework.
                       They are normally specific to a hardware platform and operating system combination.
                     </section>
-              </div>
+            
               </div>
                 <div class="col-lg-6 ">
                   <div style="flex-direction: column;display: flex;justify-content: center;align-items: center;">
                     <img id="Partner_logo" src="https://static.vecteezy.com/system/resources/previews/002/204/862/original/web-api-line-icon-vector.jpg" />
                   </div>
           
-                <div class=" p-4">
-                 <section id="intro">
-                  <h3><q>
-                   <b>What is API?
-                   </b>
-                   </q></br></h3>
+                <div>
+                 <section class="p-2" id="intro">
+                  <h4>Application Program Interface (API)</h4>
+                  <hr>
                    API stands for Application Programming Interface. In the context of APIs,
                     the word Application refers to any software with a distinct function. Interface can be
                      thought of as a contract of service between two applications.
@@ -196,28 +226,24 @@
             </div>
           </div>
         </div>
-    <div class="container-fluid p-5" style="background-color: rgb(88, 26, 180);">
+
+      <!-- languages list -->
+
+    <div class="container-fluid text-start" style="background-color: rgb(88, 26, 180);">
 
       <div class="container ">
-        <div class="row ">
-          <div id="More_For_You_List" class="col-md my-2 border  ">
-            <div class=" p-2">
-                <div class="icon_lang">
-              
-              </div>
+        <div class="row p-3">
+          <div id="More_For_You_List" class="col-sm my-2 border  ">
             <p>JavaScript</p>
-            
               <section class="learing_description">
-                Javascript (JS) is a scripting languages, primarily used on the Web. I
-                t is used to enhance HTML pages and is commonly found embedded in HTML code. 
+                Javascript (JS) is a scripting languages, primarily used on the Web. It is used to enhance HTML pages and is commonly found embedded in HTML code. 
                 JavaScript is an interpreted language. 
                 Thus, it doesn't need to be compiled. JavaScript renders web pages in an interactive and dynamic fashion.
                 <a href="https://www.w3schools.com/js/default.asp">Learn more</a>
               </section>
             </div>
-          </div>
-          <div id="More_For_You_List" class="col-md-4 my-2  border ">
-            <div class="p-2">
+         
+          <div id="More_For_You_List" class="col-sm-4 my-2  border ">
               <p>C Sharpe</p>
               <section class="learing_description">
                 C# is a general-purpose, multi-paradigm programming language. C# encompasses static typing,
@@ -227,10 +253,10 @@
                  <a href="https://www.w3schools.com/cs/index.php">Learn more</a>
               </section>
 
-            </div>
+            
           </div>
-          <div id="More_For_You_List" class="col-md-4 my-2  border ">
-            <div class="p-2">
+          <div id="More_For_You_List" class="col-sm-4 my-2  border ">
+          
               <p>C++</p>
               <section class="learing_description">
                C++ is a cross-platform language that can be used to create high-performance applications.
@@ -239,13 +265,13 @@
                  <a href="https://www.w3schools.com/cpp/default.asp">Learn more</a>
               </section>
      
-            </div>
+           
           </div>
 
           
 
-          <div id="More_For_You_List" class="col-md-4 border my-2 ">
-            <div class=" p-2">
+          <div id="More_For_You_List" class="col-sm-4 border my-2 ">
+           
               <p>Python</p>
               <section class="learing_description">
                high-level, general-purpose programming language. 
@@ -254,10 +280,10 @@
                 including structured, object-oriented and functional programming
                 <a href="https://www.w3schools.com/python/default.asp">Learn more</a>
               </section>
-            </div>
+           
           </div>
-          <div id="More_For_You_List" class="col-md-4 my-2 border">
-            <div class=" p-2">
+          <div id="More_For_You_List" class="col-sm-4 my-2 border">
+           
               <p>
                 Java
               </p>
@@ -268,9 +294,9 @@
                 <a href="https://www.w3schools.com/java/default.asp">Learn more</a>
               </section>
             </div>
-          </div>
-          <div id="More_For_You_List" class="col-md my-2  border">
-            <div class=" p-2">
+          
+          <div id="More_For_You_List" class="col-sm my-2  border">
+           
               <p>
                 Go
               </p>
@@ -280,18 +306,27 @@
               <a href="https://www.w3schools.com/python/default.asp">Learn more</a>
               </section>
             </div>
-          </div>
+         
 
         </div>
       </div>
 
     </div>
+    <!-- charts -->
+<div class="container-fluid bg-white p-2">
+  <div class="container-lg-4">
+    <div  id="myChart" class="container" style="width:100%; max-width:600px; height:400px;"></div>
+  </div>
+ 
+ 
+</div>
+
 
 
 <!-- github -->
 
-    <div class="container-fluid bg-white ">
-      <div class="container p-5">
+    <div class="container-fluid p-4 ">
+      <div class="container">
         <div class="row">
           <div class="col-sm-6 " style="
         
@@ -300,7 +335,7 @@
             justify-content:center;align-items:center;">
             <img id="Partner_logo" src="https://github.githubassets.com/images/modules/logos_page/Octocat.png" />
           </div>
-          <div class="col-sm-6 p-4">
+          <div class="col-sm-6">
             <section id="intro">
             <h3><q>
              <b>What is GitHub used for?
@@ -321,8 +356,8 @@
     </div>
 
 <!-- web server -->
-    <div class="container-fluid">
-      <div class="container p-5">
+    <div class="container-fluid  bg-white p-4">
+      <div class="container">
         <div class="row">
           <div class="col-sm-5 p-4">
             <section id="intro">
@@ -348,11 +383,11 @@
         </div>
       </div>
     </div>
-
-    <div class="container-fluid bg-white ">
-      <div class="container p-5">
-        <div class="row ">
-          <div class="col-sm  border p-4 ">
+<!-- database -->
+    <div class="container-fluid p-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm ">
         
             <section id="intro">
               <h3>
@@ -378,6 +413,7 @@
                 MariaDB
                 </li>
                 <li>MySQL</li>
+                <li>Oracle</li>
            
                </ul>
              
@@ -385,8 +421,8 @@
               </section>
            
           </div>
-          <div class="col-sm mx-1 p-4 border">
-            <section id="intro">
+          <div class="col-sm">
+            <section  id="intro">
             <h3>
               <img style="width:40px;height: 40px;"src="https://dotnetvibes.files.wordpress.com/2018/01/nosql-database.png">
               <q>
@@ -420,6 +456,8 @@
       </div>
     </div>
 
+
+   
   </div>
 
   <footer>
@@ -496,6 +534,7 @@
   </footer>
 
   <script src="index.js"></script>
+ 
 </body>
 
 </html>
