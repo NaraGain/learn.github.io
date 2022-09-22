@@ -18,6 +18,7 @@
 
   <!-- Latest compiled JavaScript -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -103,7 +104,37 @@
 </div>
 
 
-  <div>
+  
+
+
+     <div class="container-fluid p-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-5 p-4">
+            <section id="intro">
+            <h3><q>
+             <b>Data Structure?
+             </b>
+             </q></br></h3>
+             A data structure is a named location that can be used to store and organize data. And,
+              an algorithm is a collection of steps to solve a particular problem. Learning data structures and algorithms allow us to write efficient and optimized computer programs.
+            </section>
+            <button id ="learn_moreBtn"">Learn More</button>
+               
+          </div>
+          <div class="col-sm-5 m-4">
+         <div class="embed-responsive embed-responsive-16by9">
+          <iframe width="560" height="315" style=" margin-right: 10px; border-radius: 2px;"
+          src="https://www.youtube.com/embed/2T-A_GFuoTo" title="YouTube video player"
+           frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+           gyroscope; picture-in-picture" allowfullscreen></iframe>
+         </div>
+        
+          </div>
+        </div>
+      </div>
+    </div> 
+
       <div class="container-fluid bg-white">
         <div class="container bg-white ">
          
@@ -154,7 +185,7 @@
 
 <!-- sdk and api -->
 
-        <div class="container-fluid bg-white ">
+        <div class="container-fluid bg-white text-start">
           <div class="container p-4">
             
             <div class="row">
@@ -198,7 +229,7 @@
 
       <!-- languages list -->
 
-    <div class="container-fluid" style="background-color: rgb(88, 26, 180);">
+    <div class="container-fluid text-start" style="background-color: rgb(88, 26, 180);">
 
       <div class="container ">
         <div class="row p-3">
@@ -281,11 +312,20 @@
       </div>
 
     </div>
+    <!-- charts -->
+<div class="container-fluid bg-white p-2">
+  <div class="container-lg-4">
+    <div  id="myChart" class="container" style="width:100%; max-width:600px; height:400px;"></div>
+  </div>
+ 
+ 
+</div>
+
 
 
 <!-- github -->
 
-    <div class="container-fluid bg-white p-4 ">
+    <div class="container-fluid p-4 ">
       <div class="container">
         <div class="row">
           <div class="col-sm-6 " style="
@@ -316,7 +356,7 @@
     </div>
 
 <!-- web server -->
-    <div class="container-fluid p-4">
+    <div class="container-fluid  bg-white p-4">
       <div class="container">
         <div class="row">
           <div class="col-sm-5 p-4">
@@ -344,10 +384,10 @@
       </div>
     </div>
 <!-- database -->
-    <div class="container-fluid bg-white p-4">
+    <div class="container-fluid p-4">
       <div class="container">
-        <div class="row ">
-          <div class="col-sm  border p-4 ">
+        <div class="row">
+          <div class="col-sm ">
         
             <section id="intro">
               <h3>
@@ -381,8 +421,8 @@
               </section>
            
           </div>
-          <div class="col-sm  p-4 border">
-            <section id="intro">
+          <div class="col-sm">
+            <section  id="intro">
             <h3>
               <img style="width:40px;height: 40px;"src="https://dotnetvibes.files.wordpress.com/2018/01/nosql-database.png">
               <q>
@@ -417,33 +457,7 @@
     </div>
 
 
-    <div class="container-fluid p-4">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-5 p-4">
-            <section id="intro">
-            <h3><q>
-             <b>What is as Web Server?
-             </b>
-             </q></br></h3>
-             A web server is software and hardware that uses HTTP (Hypertext Transfer Protocol) and other protocols to respond to client requests made over the World Wide Web.
-              The main job of a web server is to display website content through storing, 
-             processing and delivering webpages to users.
-            </section>
-            <button id ="learn_moreBtn"">Learn More</button>
-               
-          </div>
-          <div class="col-sm-7"
-          style="
-          display: flex;
-          flex-direction: row;
-          justify-content:center;
-          align-items: center ;">
-            <img id="Partner_logo" src="https://cdn-icons-png.flaticon.com/512/2345/2345350.png" />
-          </div>
-        </div>
-      </div>
-    </div> 
+   
   </div>
 
   <footer>
@@ -519,6 +533,7 @@
   </footer>
 
   <script src="index.js"></script>
+ 
 </body>
 
 </html>
