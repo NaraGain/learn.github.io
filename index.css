@@ -5,47 +5,15 @@ h5{
     width: 20%;
 }
 
-#topnav {
-    overflow: hidden;
-    background-color: rgb(255, 255, 255);
-  }
-  
+a{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+  color:red;
+}
 
-  #band-logo{
-    background-image: url(./Untitled.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    width: 100px;
-    height: 20px;
-    font-weight: bold;
-  }
-  #topnav .main {
-    float: left;
-    color: #000000;
-    text-align: center;
-    padding: 12px 16px;
-    text-decoration: none;
-    font-size: 14px;
-    
-  }
 
-  .active  {
-    float: left;
-    text-align: center;
-    text-decoration: none;
-    font-size: 20px;
-    padding: 5px 10px;
-    margin: 0px 10px 0px 0px;
-    
-
-  }
-  
-  #topnav a:hover {
-    background-color: rgb(30, 72, 185);
-    color: rgb(255, 255, 255);
-  }
-  
   
 
   #bottom-nav{
@@ -61,8 +29,7 @@ h5{
     padding: 5px;
   }
 #main_background{
-  background-image: linear-gradient(rgba(5, 2, 24, 0.898), rgba(1, 2, 9, 0.5)), url("https://static.vecteezy.com/system/resources/previews/006/690/011/original/set-of-education-and-science-doodle-formulas-in-physics-mathematics-and-chemistry-laboratory-equipment-in-sketch-style-hand-drawn-illustration-vector.jpg");
-  background-color: #9d12c0;
+  background-image: linear-gradient(rgba(86, 5, 218, 0.898), rgba(135, 19, 243, 0.829)), url("https://thumbs.dreamstime.com/b/online-education-horizontal-border-seamless-pattern-blue-background-hand-drawn-distan-learning-doodles-sketchy-vintage-style-228339362.jpg");
   height: 450px;
   background-position: center;
   background-repeat: no-repeat;
@@ -94,27 +61,24 @@ img{
     border-radius: 2px;
    
 }
-
-
-#More_For_You_List p{
-    font-size:19px;
-    font-weight: bold;
-    color: rgb(255, 255, 255);
-
-}
-
-#More_For_You_List a{
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-
-}
-
 #More_For_You_List {
     border-radius: 2px;
-    margin-left: 13px;
-    color: white;
-  
+    padding: 20px;
+    color: rgb(7, 7, 7);
+    font-size: 16px;
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(156, 150, 150, 0.2), 0 6px 20px 0 rgba(168, 154, 154, 0.19);
+   
+
 }
+
+
+
+#col_style a:hover {
+text-decoration: none;
+}
+
+
 
 
 footer{ 
@@ -180,7 +144,6 @@ footer{
     color: #161515;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
     font-size: 14px;
     text-decoration: none;
   }
@@ -188,6 +151,7 @@ footer{
   .topnav a:hover {
     background-color: #ddd;
     color: black;
+    text-decoration: none;
   }
   
   .topnav a.active {
@@ -203,6 +167,9 @@ footer{
   }
   
   @media screen and (max-width: 600px) {
+    body{
+      font-size: 20px;
+    }
     .topnav a:not(:first-child) {display: none;}
     .topnav a {
         border-bottom: 1px solid rgb(236, 234, 234);
@@ -214,6 +181,28 @@ footer{
     }
   }
   
+  #learn_moreBtn{
+    background:none;
+    width: 200px;
+    padding:10px 35px;
+    margin-top: 20px;
+    border-radius: 2px;
+    border: none;
+    font-size: 20px;
+      }
+    
+      #learn_moreBtn:hover{
+        border: none;
+        text-decoration: none;
+        transform: translate(2px, 1px);
+       
+      }
+    
+      #learn_more_style{
+        text-decoration: none;
+        color: #9d12c0;
+      }
+
   @media screen and (max-width: 600px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive .icon {
@@ -226,21 +215,10 @@ footer{
       display: block;
       text-align: left;
     }
+    #learn_moreBtn {
+      width: 100%;
+      border-radius: 1px;
+    }
   }
 
-  #learn_moreBtn{
-border: 1px solid rgb(179, 179, 179);
-background:none;
-width: 200px;
-padding:8px 35px;
-margin-top: 20px;
-border-radius: 2px;
-  }
-
-  #learn_moreBtn:hover {
-
-    background-color: #1808a5;
-    color: white;
-    border: none;
-   
-  }
+ 
